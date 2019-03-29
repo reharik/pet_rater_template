@@ -1,4 +1,6 @@
-.petImage {
-    width: 300px;
+.PetImage {
     height: 300px;
+    padding: 20px;
+    margin: 20px;
+    border: burlywood groove 1px;
 }

@@ -28,14 +28,31 @@ class PetRater extends React.Component {
     }));
   };
 
+  onStartOver = () => {
+    this.setState(state => ({
+      ...state,
+      pro: 0,
+      con: 0,
+      index: 0
+    }));
+  };
+
+  onSkipClick = () => {
+    this.setState(state => ({
+      ...state,
+      index: this.getNewIndex()
+    }));
+  };
+
   render() {
     return (
-      <div className={"petRater"}>
-        <ScoreCard pro={this.state.pro} con={this.state.con} />
+      <div className={"PetRater"}>
+        <ScoreCard pro={this.state.pro} con={this.state.con} onStartOver={this.onStartOver} />
         <Rater
           imageUrl={this.props.imageUrls[this.state.index]}
           onProClick={this.onProClick}
           onConClick={this.onConClick}
+          onSkipClick={this.onSkipClick}
         />
       </div>
     );

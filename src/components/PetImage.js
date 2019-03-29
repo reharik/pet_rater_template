@@ -3,7 +3,7 @@ import "../css/petImage.css";
 
 const PetImage = ({ imageUrl }) => {
   return (
-    <div className={"petImage"}>
+    <div className={"PetImage"}>
       <img src={imageUrl}  height="300px" />
     </div>
   );
