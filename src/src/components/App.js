@@ -16,7 +16,7 @@ class App extends Component {
           <div className="App__body" >
             <LeftNav />
             <div className="App__contentarea" >
-              <Route path="/" exact component={Pets} />
+              <Route path="/" exact component={Dashboard} />
               <Route path="/dashboard/" component={Dashboard} />
               <Route path="/rater/" component={Pets} />
             </div>

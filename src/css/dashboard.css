@@ -1,2 +1,25 @@
 .Dashboard {
+    display: flex;
+    justify-content: center;
+}
+
+.Dashboard__table {
+    width:80vw;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.Dashboard__table th{
+    height: 30px;
+    text-align: start;
+
+}
+
+.Dashboard__table tr:nth-child(odd) {background: #FFF}
+
+.Dashboard__column {
+    padding:3px;
+    width: 14%;
+    border-bottom: 1px solid black;
 }

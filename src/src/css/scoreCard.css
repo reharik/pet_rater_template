@@ -1,0 +1,9 @@
+.ScoreCard {
+    align-items: center;
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    justify-content: space-between;
+    padding: 20px;
+    width: 600px;
+}

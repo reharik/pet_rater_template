@@ -1,0 +1,8 @@
+.PetRater {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    height: 450px;
+    border: burlywood groove 3px;
+}
