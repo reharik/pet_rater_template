@@ -1,9 +1,0 @@
-.RatingButtons {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.RatingButtons__button {
-    width: 100px;
-}
